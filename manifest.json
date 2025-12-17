@@ -1,0 +1,8 @@
+{
+ "name":"Princesa Violeta",
+ "short_name":"Violeta",
+ "start_url":"./index.html",
+ "display":"standalone",
+ "background_color":"#7a3db8",
+ "theme_color":"#7a3db8"
+}
