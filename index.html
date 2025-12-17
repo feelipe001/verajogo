@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Princesa Violeta</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<div id="home" class="screen active">
+  <h1>👑 Reino da Princesa Violeta</h1>
+  <p id="levelText"></p>
+  <img src="images/princesa.png" class="hero">
+  <button onclick="startGame()">▶️ Jogar</button>
+</div>
+
+<div id="game" class="screen">
+  <div class="top">
+    <span>⭐ <b id="score">0</b></span>
+    <span>⏱ <b id="time">0</b>s</span>
+  </div>
+  <div id="board" class="board"></div>
+</div>
+
+<div id="result" class="screen">
+  <h2 id="message"></h2>
+  <p>Pontos: <b id="finalScore"></b></p>
+  <p id="stars"></p>
+  <button onclick="nextLevel()">⏭ Próximo</button>
+  <button onclick="goHome()">🏠 Início</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
